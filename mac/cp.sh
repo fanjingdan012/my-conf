@@ -1,0 +1,11 @@
+cp ~/.config/nvim/init.vim .
+cp ~/.tmux.conf .
+cp ~/.bashrc .
+cp ~/.ideavimrc .
+cp ~/.condarc .
+cp ~/.gitignore_global .
+cp ~/.p10k.zsh .
+cp ~/.vimrc .
+cp ~/.zshrc .
+cp ~/.tmux.conf  .
+cp /etc/profile .
