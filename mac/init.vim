@@ -169,6 +169,7 @@ Plug 'junegunn/gv.vim'    " https://github.com/junegunn/gv.vim git commit browse
 " plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-eunuch'
 Plug 'cakebaker/scss-syntax.vim'
+Plug 'junegunn/fzf'
 "plug 'gorodinskiy/vim-coloresque'
 " plug 'valloric/youcompleteme'
 "
