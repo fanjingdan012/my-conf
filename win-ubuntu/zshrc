@@ -111,11 +111,21 @@ alias ll='ls -l'
 alias la='ls -a'
 alias vi='nvim'
 alias grep="grep --color=auto"
+alias start='/mnt/c/Windows/explorer.exe'
+alias java='java.exe'
+alias javac='javac.exe'
+alias hashcat='hashcat.exe'
+alias chrome='"/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"'
 alias subl='/mnt/d/install/sublime3207/subl.exe'
-alias tbc='typora /mnt/d/githubP/blog-content'
+alias smerge='sublime_merge.exe'
+alias rar='"/mnt/c/Program Files/WinRAR/WinRAR.exe"'
+alias typora='/mnt/d/install/Typora/Typora.exe'
+alias play='"/mnt/c/Program Files (x86)/Tencent/QQPlayer/QQPlayer.exe"'
+alias open='"/mnt/c/Users/fanji/AppData/Local/Kingsoft/WPS Office/ksolaunch.exe"'
+alias tbc='typora D:/githubP/blog-content'
 alias cdbc='cd /mnt/d/githubP/blog-content'
 alias sbc='subl /mnt/d/githubP/blog-content'
-alias csa='code /mnt/d/githubP/stock-analyzer'
+alias ssa='subl /mnt/d/githubP/stock-analyzer'
 alias oc='start /mnt/d/githubP/stock-analyzer/data/charts'
 alias psrv='python -m SimpleHTTPServer 8001'
 # >>> conda initialize >>>
@@ -124,10 +134,10 @@ __conda_setup="$('/Users/i312177/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> 
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/i312177/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/i312177/opt/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/mnt/c/Users/fanji/AppData/Local/Continuum/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/mnt/c/Users/fanji/AppData/Local/Continuum/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/i312177/opt/anaconda3/bin:$PATH"
+        export PATH="/mnt/c/Users/fanji/AppData/Local/Continuum/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -138,8 +148,6 @@ source ~/.bash_profile
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-#source "${HOME}/.iterm2_shell_integration.zsh"
 set -o vi
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 clear
