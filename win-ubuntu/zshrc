@@ -125,6 +125,7 @@ alias open='"/mnt/c/Users/fanji/AppData/Local/Kingsoft/WPS Office/ksolaunch.exe"
 alias tbc='typora D:/githubP/blog-content'
 alias cdbc='cd /mnt/d/githubP/blog-content'
 alias sbc='subl /mnt/d/githubP/blog-content'
+alias vbc='vi  /mnt/d/githubP/blog-content'
 alias ssa='subl /mnt/d/githubP/stock-analyzer'
 alias oc='start /mnt/d/githubP/stock-analyzer/data/charts'
 alias psrv='python -m SimpleHTTPServer 8001'

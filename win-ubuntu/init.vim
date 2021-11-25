@@ -188,8 +188,8 @@ Plug 'solarnz/thrift.vim'
 Plug 'Rykka/instantrst'
 Plug 'vim-scripts/bufonly.vim'
 Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
-Plug 'suan/vim-instant-markdown', {'do': 'npm -g install instant-markdown-d'}
+Plug 'iamcco/mathjax-support-for-mkdp'
+Plug 'iamcco/markdown-preview.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'sukima/xmledit'
@@ -366,6 +366,10 @@ let g:tagbar_autofocus = 1
 let g:tagbar_sort = 0    " sort by sourcefile
 "let g:tagbar_show_linenumbers = 1
 set updatetime=1000    " ms update
+highlight GitGutterAdd ctermfg=green
+highlight GitGutterChange ctermfg=yellow
+highlight GitGutterDelete ctermfg=red
+
 
 
 " for airline
