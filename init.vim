@@ -169,7 +169,6 @@ Plug 'junegunn/gv.vim'    " https://github.com/junegunn/gv.vim git commit browse
 " plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-eunuch'
 Plug 'cakebaker/scss-syntax.vim'
-Plug 'junegunn/fzf'
 "plug 'gorodinskiy/vim-coloresque'
 " plug 'valloric/youcompleteme'
 "
@@ -191,8 +190,6 @@ Plug 'vim-scripts/bufonly.vim'
 Plug 'godlygeek/tabular'
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
-"Plug 'plasticboy/vim-markdown'
-"Plug 'suan/vim-instant-markdown', {'do': 'npm -g install instant-markdown-d'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'sukima/xmledit'
