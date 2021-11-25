@@ -11,6 +11,7 @@
 
 " https://superuser.com/questions/302186/vim-scrolls-very-slowly-when-a-line-is-too-long
 " Syntax coloring lines that are too long just slows down the world
+set autoread
 set synmaxcol=1000
 set ttyfast " u got a fast terminal
 "set ttyscroll=3
@@ -115,7 +116,7 @@ nnoremap no :!node %<cr>
 
 
 call plug#begin('~/.vim/plugged')
-
+Plug 'preservim/tagbar'
 Plug 'Yggdroot/indentLine'
 Plug 'gregsexton/MatchTag'
 Plug 'tpope/tpope-vim-abolish'
@@ -156,13 +157,13 @@ Plug 'mxw/vim-jsx'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'w0rp/ale'
 Plug 'prettier/vim-prettier', {'do': 'npm install -g prettier'}
-Plug 'Quramy/tsuquyomi'
+" Plug 'Quramy/tsuquyomi' TypeScript
 Plug 'groenewege/vim-less'
-
 Plug 'glench/vim-jinja2-syntax'
 Plug 'moll/vim-node'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'    " https://github.com/junegunn/gv.vim git commit browser
@@ -185,7 +186,7 @@ Plug 'marijnh/tern_for_vim'
 
 " let vundle manage vundle
 Plug 'solarnz/thrift.vim'
-Plug 'Rykka/instantrst'
+" Plug 'Rykka/instantrst'
 Plug 'vim-scripts/bufonly.vim'
 Plug 'godlygeek/tabular'
 Plug 'iamcco/mathjax-support-for-mkdp'
@@ -196,7 +197,7 @@ Plug 'sukima/xmledit'
 Plug 'mattn/emmet-vim'
 Plug 'heavenshell/vim-pydocstring'
 " plug 'sjl/gundo.vim'
-Plug 'Valloric/ListToggle'
+Plug 'valloric/listtoggle'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'vim-syntastic/syntastic'
@@ -352,6 +353,7 @@ endif
 " for nerdtree
 nmap ,v :NERDTreeFind<cr>
 nmap ,g :NERDTreeToggle<cr>
+let g:NERDTreeWinSize=32
 let nerdtreeshowhidden=1
 let nerdtreeignore = [
             \ '\.git$', '\.hg$', '\.svn$', '\.stversions$', '\.pyc$', '\.pyo$', '\.svn$', '\.swp$',
