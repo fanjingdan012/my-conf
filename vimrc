@@ -1,5 +1,5 @@
 " Vundle config
-
+set ff=unix
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
