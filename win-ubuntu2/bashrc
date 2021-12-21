@@ -1,4 +1,6 @@
 alias typora="open -a typora"
+alias pshell="powershell.exe"
+alias cmd="cmd.exe"
 
 export JAVA_HOME='/mnt/c/Program Files/Java/jdk-11.0.3/'
 export CLASS_PATH=$JAVA_HOME/lib
@@ -12,10 +14,13 @@ export JMETER_HOME="/usr/local/opt/apache-jmeter-5.4"
 export SMERGE_HOME="/mnt/d/install/SublimeMerge/"
 export GIT_EXTERNAL_DIFF=smerge
 export GRADLE_HOME='/mnt/d/install/gradle-6.5.1'
+export POWERSHELL_HOME='/mnt/c/WINDOWS/system32/WindowsPowerShell/v1.0/powershell.exe'
+export CMD_HOME='/mnt/c/WINDOWS/system32/cmd.exe'
+export HASHCAT_HOME='/mnt/d/install/hashcat-6.2.5'
+export HASHCATUTILS_HOME='/mnt/d/install/hashcat-utils-1.9'
+export JTR_HOME='/mnt/d/install/john-1.9.0-jumbo-1-win64'
 
-
-export
-PATH=$PATH:${JAVA_HOME}/bin:${MVN_HOME}/bin:${ANT_HOME}/bin:${ICU4V_HOME}/bin:${ICU4V_HOME}/sbin:${MYSQL_HOME}/bin:${PYTHON3}/bin:${ZOOKEEPER_HOME}/bin:${JMETER_HOME}/bin:${SMERGE_HOME}:${GRADLE_HOME}/bin:/mnt/d/install/hashcat-6.1.1/
+PATH=$PATH:${JAVA_HOME}/bin:${MVN_HOME}/bin:${ANT_HOME}/bin:${ICU4V_HOME}/bin:${ICU4V_HOME}/sbin:${MYSQL_HOME}/bin:${PYTHON3}/bin:${ZOOKEEPER_HOME}/bin:${JMETER_HOME}/bin:${SMERGE_HOME}:${GRADLE_HOME}/bin:${HASHCAT_HOME}:${JTR_HOME}/run:${HASHCATUTILS_HOME}/bin:${POWERSHELL_HOME}:${CMD_HOME}
 if [ "${BASH-no}" != "no" ]; then
 	[ -r /etc/bashrc ] && . /etc/bashrc
 fi
