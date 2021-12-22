@@ -331,6 +331,11 @@ tmux_conf_copy_to_os_clipboard=false
 
 # start with mouse mode enabled
 set -g mouse on
+#set -g default-shell /bin/zsh
+#set -g mode-keys vi
+#set-window-option -g utf8 on
+#set -g mouse on
+#set-option -s set-clipboard on
 
 # force Vi mode
 #   really you should export VISUAL or EDITOR environment variable, see manual
