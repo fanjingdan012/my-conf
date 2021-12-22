@@ -1,5 +1,5 @@
 cp ../init.vim /home/fjd/.config/nvim/init.vim
-cp tmux.conf ~/.tmux.conf
+cp tmux.conf ~/.tmux.conf.local
 cp bashrc ~/.bashrc
 cp ../ideavimrc ~/.ideavimrc
 cp ../condarc ~/.condarc

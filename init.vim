@@ -161,7 +161,7 @@ Plug 'prettier/vim-prettier', {'do': 'npm install -g prettier'}
 Plug 'groenewege/vim-less'
 Plug 'glench/vim-jinja2-syntax'
 Plug 'moll/vim-node'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'majutsushi/tagbar'
