@@ -106,23 +106,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cls='clear'
-alias ll='ls -l'
-alias la='ls -a'
-alias vi='nvim'
-alias grep="grep --color=auto"
-alias subl=\''/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'\'
-alias sm='subl ~/githubWdf/idl-sfmessageslang'
-alias sb='subl ~/githubWdf/blog'
-alias tb='typora ~/githubWdf/blog'
-alias cdb='cd ~/githubWdf/blog'
-alias cdbc='cd ~/githubP/blog-content'
-alias sbc='subl ~/githubP/blog-content'
-alias csa='code ~/githubP/stock-analyzer'
-alias oc='open ~/githubP/stock-analyzer/data/charts'
-alias ot='open https://itsm.services.sap/now/workspace/agent/list & open https://jira.successfactors.com/issues/\?filter=-1'
-alias pjc='/Users/i312177/.conda/envs/stock-analyzer/bin/python ~/githubWdf/cmd-shortcut/jenkins-checker.py'
-alias psrv='python -m SimpleHTTPServer 8001'
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/i312177/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"

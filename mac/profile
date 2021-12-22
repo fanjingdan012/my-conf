@@ -4,30 +4,6 @@ if [ -x /usr/libexec/path_helper ]; then
 	eval `/usr/libexec/path_helper -s`
 fi
 
-
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/sapjvm8/Contents/Home
-export CLASS_PATH=$JAVA_HOME/lib
-export ANT_HOME=/usr/local/opt/apache-ant-1.9.15
-export MVN_HOME=/usr/local/opt/apache-maven-3.6.3
-export ANT_OPTS='-Xms1024M -Xmx4096M -XX:MaxPermSize=512m'
-export IVY_SERVER=http://ivyrot.sfdp.c.eu-de-2.cloud.sap:8081
-export MAVEN_OPTS='-Xmx3000m'
-export SFS_BIND_PORT_SHUTDOWN=8006
-export ICU4V_HOME=/usr/local/opt/icu4c/
-export MYSQL_HOME=/usr/local/mysql
-export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
-export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
-export PYTHON3="/Users/i312177/opt/anaconda3"
-export ZOOKEEPER_HOME="/usr/local/opt/apache-zookeeper-3.6.2-bin"
-export JMETER_HOME="/usr/local/opt/apache-jmeter-5.4"
-export SMERGE_HOME=/Users/i312177/software/Sublime\ Merge.app/Contents/SharedSupport/bin
-export GIT_EXTERNAL_DIFF=smerge
-
-
-
-
-export
-PATH=$PATH:${JAVA_HOME}/bin:${MVN_HOME}/bin:${ANT_HOME}/bin:${ICU4V_HOME}/bin:${ICU4V_HOME}/sbin:${MYSQL_HOME}/bin:${PYTHON3}/bin:/usr/local/Cellar/neovim/0.4.4.reinstall/bin:${ZOOKEEPER_HOME}/bin:${JMETER_HOME}/bin:${SMERGE_HOME}
 if [ "${BASH-no}" != "no" ]; then
 	[ -r /etc/bashrc ] && . /etc/bashrc
 fi
