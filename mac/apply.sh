@@ -7,4 +7,3 @@ cp ../gitignore ~/.gitignore
 cp p10k.zsh ~/.p10k.zsh
 cp ../vimrc ~/.vimrc
 cp zshrc ~/.zshrc
-cp profile /etc/profile

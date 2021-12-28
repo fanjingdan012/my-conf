@@ -16,7 +16,10 @@ alias oc='open ~/githubP/stock-analyzer/data/charts'
 alias ot='open https://itsm.services.sap/now/workspace/agent/list & open https://jira.successfactors.com/issues/\?filter=-1'
 alias pjc='/Users/i312177/.conda/envs/stock-analyzer/bin/python ~/githubWdf/cmd-shortcut/jenkins-checker.py'
 alias psrv='python -m SimpleHTTPServer 8001'
-
+alias python3='/Users/i312177/opt/anaconda3/bin/python'
+alias pip3='/Users/i312177/opt/anaconda3/bin/pip3'
+alias python='python3'
+alias pip='pip3'
 export PYTHON3="/Users/i312177/opt/anaconda3"
 export ZOOKEEPER_HOME="/usr/local/opt/apache-zookeeper-3.6.2-bin"
 export JMETER_HOME="/usr/local/opt/apache-jmeter-5.4"
