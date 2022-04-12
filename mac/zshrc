@@ -75,7 +75,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gradle mvn autojump zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(sudo git git-flow git-flow-completion gradle mvn autojump zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 if [ -f ~/.bashrc ]; then
@@ -133,3 +133,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 set -o vi
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 clear
+source /Users/i312177/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
