@@ -133,4 +133,3 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 set -o vi
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 clear
-source /Users/i312177/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
