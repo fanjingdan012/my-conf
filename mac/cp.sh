@@ -1,5 +1,5 @@
 cp ~/.config/nvim/init.vim ../init.vim
-cp ~/.bashrc bashrc
+cp ~/.bashrc bashrc21
 cp ~/.ideavimrc ../ideavimrc
 cp ~/.condarc ../condarc
 cp ~/.gitignore ../gitignore
