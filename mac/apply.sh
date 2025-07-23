@@ -1,6 +1,6 @@
 #cp ../init.vim ~/.config/nvim/init.vim
 #cp tmux.conf.local ~/.tmux.conf.local
-cp bashrc21 ~/.bashrc
+cp bashrc ~/.bashrc
 cp ../ideavimrc ~/.ideavimrc
 cp ../condarc ~/.condarc
 cp ../gitignore ~/.gitignore
